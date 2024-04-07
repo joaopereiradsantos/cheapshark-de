@@ -123,7 +123,7 @@ If we were to adopt a star schema approach, the stores table would serve as a di
       is_active SMALLINT
     );
 
-DAG: [cheapshark_stores.py](http://url/to/cheapshark_stores.py)
+DAG: [cheapshark_stores.py](https://github.com/joaopereiradsantos/cheapshark-de/blob/main/cheapshark_stores.py)
 
 ### Deals
 
@@ -149,7 +149,7 @@ If we were to follow a star schema approach, the deals table would serve as our 
       last_change TIMESTAMP
     );
 
-DAG: [cheapshark_deals.py](http://url/to/cheapshark_deals.py)
+DAG: [cheapshark_deals.py](https://github.com/joaopereiradsantos/cheapshark-de/blob/main/cheapshark_deals.py)
 
 ### Games
 
@@ -176,15 +176,15 @@ For a more formalized approach, we could utilize an S3 bucket to store raw data 
       cheapest_price_ever DECIMAL(10, 2)
     );
 
-![task2](http://url/to/task2.png)
+![task2](https://github.com/joaopereiradsantos/cheapshark-de/blob/main/task2.png)
 
 ## Task 3
 
-DAG: [task3.sql](http://url/to/task3.sql)
+DAG: [task3.sql](https://github.com/joaopereiradsantos/cheapshark-de/blob/main/task3.sql)
 
 ## Task 4
 
-DAG: [task4.sql](http://url/to/task4.sql)
+DAG: [task4.sql](https://github.com/joaopereiradsantos/cheapshark-de/blob/main/task4.sql)
 
 ## Task 5
 A tipical approach is to use Amazon API Gateway with Amazon SQS (Simple Queue Service), including a Dead Letter Queue (DLQ) to process incomming webhook events, Lambda function for the transformations requiered to store the data into RDS (Relational Database Service) instance.
@@ -200,4 +200,4 @@ Furthermore, additional processing can be executed asynchronously, bolstering ap
 
 Source: Eric Johnson from AWS, on safeguarding a user's raw data before executing any processing: "Building a serverless URL shortener app without AWS Lambda."
 
-![task6.png](http://url/to/task6.png)
+![task6.png](https://github.com/joaopereiradsantos/cheapshark-de/blob/main/task6.png)
