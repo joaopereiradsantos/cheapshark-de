@@ -1,15 +1,11 @@
-<h1 align="center">Data Engineer Take Home Assignment</h1>
+<h1 align="center">Data Engineer CheapShark API Project</h1>
 
 # Challenge
-Thank you for your interest in joining our data engineering team.
-
-In this take-home exercise you’ll be working in an imaginary company. The company’s product is a deal alert app for PC games. For this we will rely on the data provided by the [CheapShark API](https://apidocs.cheapshark.com/#c6e4678d-7ff0-ebd4-59c1-b4d0fb3dac87).
+In this take-home exercise we’ll be working in an imaginary company. The company’s product is a deal alert app for PC games. For this we will rely on the data provided by the [CheapShark API](https://apidocs.cheapshark.com/#c6e4678d-7ff0-ebd4-59c1-b4d0fb3dac87).
 
 We are interested in keeping information about all the current deals per store. We want to be able to track when a deal has changed or is not available anymore. In order to create the alert we will also need detailed information of the game and the store related to that deal. 
 
 Keep in mind the limitations offered by the API when you develop your solution.
-
-As we know your time is valuable, please don't spend more than 4 hours on this assignment.
 
 ## Task 1
 Create an Airflow DAG(s) that will fetch data from the CheapShark API every hour. The data that we are interested in is `Deals`, `Games` and `Stores` information.
@@ -78,13 +74,6 @@ The expected input would have the following structure
 
 ## Task 6
 Please provide a documentation by updating this README.md about what you think important regarding your works in Task 1, 2 and 5.
-
-# Submission
-Please create a `private` github repo that contains this file along with your code and share with these users
-- `dmartinez-ch` `chyzouakia`
-
-So that we can see your commits or any activities you like to demonstrate!
-Good luck!
 
 ____
 
